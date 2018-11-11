@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>This is an example of Java Sript</title>
+
+  </head>
+
+  <body>
+
+    <h1>This is the title</h1>
+
+    <script>
+      var textToDisplay = "Hello World";
+
+      document.write("<h2>" + textToDisplay + "</h2>");
+  
+      // FOR: we know exactly how much times
+      var x = "*";
+  
+      for(var counter = 0; counter < 5; counter++)
+      {
+        document.write("The counter is : " + counter + " "  + x + "<br>");  
+        x = x + "*";
+      }
+
+      //WHILE: 
+      var counter = 0;
+      var shouldContinue = true;
+
+      while(shouldContinue){
+        document.write("(WHILE) The counter is : " + counter + " "  + x + "<br>");  
+        counter++;
+        if (counter > 9){
+          shouldContinue = false;
+        }
+      }
+
+
+    
+
+
+    </script>
+
+  
+
+  
+  </body>
+
+</html>
